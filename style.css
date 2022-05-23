@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@700&display=swap');
+
+:root{
+    --font-color:#333;
+    --logo-font:'Inconsolata' , monospace;
+    --font:'Space Mono', monospace;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div.wrapper{
+    padding: 2% 10%;
+    width: 100%;
+    min-height: 100vh;
+}
+nav{
+    width:100%;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--font-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--logo-font);
+}
+
+div.contents{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+}
+
+div.scarecrow{
+    padding: 10% 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+div.scarecrow img{
+    width: 539.22px;
+    height: 414.25px;
+}
+div.text{
+    position: relative;
+}
+
+div.text h1{
+    width: 586px;
+    height: 190px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: var(--font-color);
+}
+div.text p{
+    width: 381px;
+    height: 108px;
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    margin-top: 40px;
+}
+div.text a{
+    display: block;
+    padding: 1em;
+    width: 200px;
+    color: #fff;
+    background: #333333;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+/* Responsive */
+
+@media(max-width:1350px){
+    div.contents{
+        display:block;
+        margin-top: 50px;
+    }    
+    div.text h1{
+        width: auto;
+        height: auto;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+        color: var(--font-color);
+    }
+    div.scarecrow img{
+        width: 100%;
+    }
+}
