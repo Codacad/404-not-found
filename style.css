@@ -34,77 +34,64 @@ div.contents{
     gap: 70px;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 50px;
+    padding: 10% 0;
 }
 
 div.scarecrow{
-    padding: 10% 0;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 div.scarecrow img{
-    width: 539.22px;
-    height: 414.25px;
-}
-div.text{
-    position: relative;
+   width: 80%;
 }
 
 div.text h1{
-    width: 586px;
-    height: 190px;
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 700;
     font-size: 64px;
-    line-height: 95px;
-    letter-spacing: -0.035em;
-    color: var(--font-color);
-}
-div.text p{
-    width: 381px;
-    height: 108px;
+    letter-spacing: 3px;
+    line-height: 1.5;
     font-family: var(--font);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: -0.035em;
-    color: #4F4F4F;
-    margin-top: 40px;
+    color: #333;
 }
+
+div.text p{
+    font-size: 24px;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    font-family: var(--logo-font);
+    width: 75%;
+    padding: 20px 0;
+    color: #4F4F4F;
+}
+
 div.text a{
     display: block;
-    padding: 1em;
     width: 200px;
-    color: #fff;
-    background: #333333;
-    text-decoration: none;
+    padding: 1em;
     text-align: center;
-    margin-top: 40px;
-    text-transform: uppercase;
+    background-color: #333;
+    text-decoration: none;
+    color: #fff;
 }
 
-/* Responsive */
-
-@media(max-width:1350px){
+@media(max-width:1220px){
+    div.wrapper{
+        padding: 2% 5%;
+        width: 100%;
+        min-height: 100vh;
+    }
     div.contents{
         display:block;
         margin-top: 50px;
-    }    
-    div.text h1{
-        width: auto;
-        height: auto;
-        font-family: 'Space Mono';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 46px;
-        line-height: 95px;
-        letter-spacing: -0.035em;
-        color: var(--font-color);
     }
-    div.scarecrow img{
+    div.scarecrow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    div.text p{
         width: 100%;
     }
 }
