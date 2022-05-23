@@ -73,6 +73,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [Will be available soon](https://{your-web-site-link})
+- GitHub [Mohd Rizwan](https://github.com/Codacad)
+- Twitter [Mohd Rizwan](https://{twitter.com/your-username})
